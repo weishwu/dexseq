@@ -5,7 +5,7 @@
     dexseqbin=/nfs/med-bfx-activeprojects/weishwu/common/Anaconda3/envs/dexseq/bin  
     cd ${pjdir}/dexseq
 
-    # prepare annotation
+   ### prepare annotation
     # by default, genes with overlapping exons are merged. If disabled, these exons will be skipped.
     [ -f Mus_musculus.GRCm38.98.gff ] || python ${dexseqbin}/dexseq_prepare_annotation.py /nfs/med-bfx-common/ENSEMBL_references/Mus_musculus/GRCm38/Mus_musculus.GRCm38.98.gtf Mus_musculus.GRCm38.98.gff
 
