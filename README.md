@@ -9,7 +9,7 @@
     # by default, genes with overlapping exons are merged. If disabled, these exons will be skipped.
     [ -f Mus_musculus.GRCm38.98.gff ] || python ${dexseqbin}/dexseq_prepare_annotation.py /nfs/med-bfx-common/ENSEMBL_references/Mus_musculus/GRCm38/Mus_musculus.GRCm38.98.gtf Mus_musculus.GRCm38.98.gff
 
-    # count reads
+   ### count reads
     # PE: -p yes
     # sam needs to be sorted either by name or by coordinate. By default, it assumes sorted by name
     # by default it assumes strand-specific (first sequence pass is on the same strand as the gene). Otherwise use "-s no" or "-s reverse"
@@ -29,7 +29,7 @@
     done
 
 
-    ## in R
+   ### Run DEXSeq in R
 
     # create a sample table
     smps=read.table('../../samples.csv',header=T,sep=',')
