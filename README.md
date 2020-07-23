@@ -1,8 +1,8 @@
 # dexseq
 
-  pjdir=/nfs/med-bfx-activeprojects/Soleimanpour_RS1_weishwu_damki_NovaA-225
-  alndir=/nfs/med-bfx-activeprojects/Soleimanpour_RS1_weishwu_damki_NovaA-225/analysis_20200318/alignment_results/04-rsem_star_align
-  dexseqbin=/nfs/med-bfx-activeprojects/weishwu/common/Anaconda3/envs/dexseq/bin
+  pjdir=/nfs/med-bfx-activeprojects/Soleimanpour_RS1_weishwu_damki_NovaA-225  
+  alndir=/nfs/med-bfx-activeprojects/Soleimanpour_RS1_weishwu_damki_NovaA-225/analysis_20200318/alignment_results/04-rsem_star_align  
+  dexseqbin=/nfs/med-bfx-activeprojects/weishwu/common/Anaconda3/envs/dexseq/bin  
   cd ${pjdir}/dexseq
 
   # prepare annotation
