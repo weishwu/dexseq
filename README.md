@@ -49,7 +49,8 @@
     dxd = estimateDispersions( dxd )
     dxd = testForDEU( dxd )
     dxd = estimateExonFoldChanges( dxd, fitExpToVar="Condition")save(dxd, file='dexseq_Soleimanpour')
-    dxr1 = DEXSeqResults( dxd )save(dxr1, file='dexseq_Soleimanpour_res')
+    dxr1 = DEXSeqResults( dxd )
+    save(dxr1, file='dexseq_Soleimanpour_res')
     plotDEXSeq( dxr1, "ENSMUSG00000027668", legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2, fitExpToVar='Condition') 
 
 
